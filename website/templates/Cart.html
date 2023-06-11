@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bin </title>
+        <link rel="stylesheet" href="{{ url_for ('static',filename='css/Cart_style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <nav>
+            <div class="nav-wrapper" style="background-color:green !important">
+              <!-- <a href="#" class="brand-logo"> <B> MONEY PLANT </B> </a> -->
+              <a href="#" class="logo"> <B> MONEY PLANT </B> </a>
+
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+                <li> <a href="sass.html"> Home </a> </li>
+                <li> <a href="collapsible.html"> About </a> </li>
+                <li> <a href="collapsible.html"> Status </a> </li>
+                <li> <a href="badges.html"> Components </a> </li>
+                
+              </ul>
+            </div>
+        </nav>
+
+        <div class="box">
+            <h2> SMART-CART STATUS </h2>
+            <hr>
+
+            <div class="box2"> 
+
+                <div class="box3"> 
+                    <p> TYPES OF WASTE SEPERATED DISPLAYED BELOW: </p>
+                </div>
+
+                <div class="box4"> 
+            
+                    <table>
+                        <thead>
+
+                          <tr>
+                            <th> S.No </th>
+                            <th> Wate Type </th>
+                            <th> Last Update </th>
+                            <th> Weight </th>
+                            <th> Status </th>
+                            <th> Incentive </th>
+                          </tr>
+                    
+                        </thead>
+
+                        <tbody>
+
+                          <tr>
+                            <td> 1 </td>
+                            <td><a href="#"> Plastic </a></td>
+                            <td> 12:35 PM </td>
+                            <td> 5 grams</td>
+                            <td> <progress max="100" value="15"> </progress> <label> 14% </label> </td>
+                            <td> <input type="submit" name="" value=" &#x20B9; 11">  </a>
+                            </td>
+
+                          </tr>
+
+                          <tr>
+                            <td> 2 </td>
+                            <td><a href="#"> Glass </a></td>
+                            <td> 12:37 PM </td>
+                            <td> 7 grams </td>
+                            <td> <progress max="100" value="30"> </progress> <label> 12% </label> </td>
+                            <td> <input type="submit" name="" value=" &#x20B9; 13"> </td>
+                          </tr>
+
+                          <tr>
+                            <td> 3 </td>
+                            <td><a href="#"> Metal </a></td>
+                            <td> 12:40 PM</td>
+                            <td> 20 grams </td>
+                            <td> <progress max="100" value="50"> </progress> <label> 50% </label> </td>
+                            <td> <input type="submit" name="" value=" &#x20B9; 27"> </td>
+                          </tr>
+
+                          <tr>
+                            <td> 4 </td>
+                            <td><a href="#"> Mixed Waste </a></td>
+                            <td> 12:45 PM </td>
+                            <td> 2 grams </td>
+                            <td> <progress max="100" value="12"> </progress> <label> 12% </label> </td>
+                            <td> <input type="submit" name="" value=" &#x20B9; 10"> </td>
+                          </tr>
+
+                        </tbody>
+
+                      </table>
+                
+                </div>
+            </div>
+       
+
+        </div>
+
+    </body>
+
+</html>

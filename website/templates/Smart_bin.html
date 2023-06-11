@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Bin_1001 </title>
+        <link rel="stylesheet" href="{{ url_for ('static',filename='css/Smart_bin_style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <body>
+        
+            <nav>
+                <div class="nav-wrapper" style="background-color:green !important">
+                  <!-- <a href="#" class="brand-logo"> <B> MONEY PLANT </B> </a> -->
+                  <a href="#" class="logo"> <B> MONEY PLANT </B> </a>
+    
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+    
+                    <li> <a href="sass.html"> Home </a> </li>
+                    <li> <a href="collapsible.html"> About </a> </li>
+                    <li> <a href="collapsible.html"> Status </a> </li>
+                    <li> <a href="badges.html"> Components </a> </li>
+                    
+                  </ul>
+                </div>
+            </nav>
+    
+            <div class="box">
+                <h2> SMART-BIN STATUS </h2>
+                <hr>
+    
+                <div class="box2"> 
+    
+                    <div class="box3"> 
+                        <p> BIN_1001 STATUS </p>
+                        <hr>
+
+                            <div class="box6">
+                              <img src="{{ url_for ('static',filename='images/QR.png') }}">
+                            </div>
+
+                            <div class="box7">
+
+                              <p> <b> BIN ID:      &nbsp; </b> <a href="#">  BIN_1001 </a> </p>
+                              <p> <b> LOCATION:    &nbsp; </b> GHAZIABAD </p>
+                              <p> <b> DATE & TIME: &nbsp; </b> 30/6/2022 | 12:35 PM </p>
+                              <p> <b> STATUS:      &nbsp; </b> <progress max="100" value="70"> </progress> &nbsp; <label> 93% </label> </p>
+                              <p> <b> MESSAGE:     <br>   </b> Urgently required to empty and clean the bin , its about to overload </p>
+                              <p> 
+                                <a href=" {{ url_for ('Bin_waste') }} "> 
+                                  <input type="submit" name="" value="Show Details">  
+                                </a>
+                              </p>
+
+                            </div>
+
+
+                    </div>
+
+                    <div class="box4">
+                        <img src="{{ url_for ('static',filename='images/bin_status.png') }}">
+                    </div>
+
+                    <div class="box5">
+                        <img src="{{ url_for ('static',filename='images/maps.jpg') }}">
+                    </div>
+                    
+    
+                </div>
+           
+    
+            </div>
+    
+        </body>
+    
+    </html>
+    </body>
+</html>
