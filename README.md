@@ -15,15 +15,3 @@ Moreover, Money Plant also have a user friendly Application to get Incentive and
 This project has got the 2nd Position in "Smart India Hackathon 2022". 
 ```
 <br>
-
-### Application 
-```
-Money Plant App
-```
-<div float="right" width="400">
-  <img align="left" height="500" width="1000" src="Application.jpg">
-  <br>
-</div>
-<br>
-<br>
-
